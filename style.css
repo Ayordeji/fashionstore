@@ -199,12 +199,6 @@ h5 {
 }
 /* End Home Banner */
 
-/* Banner */
-#banner .card img {
-  height: 35vh;
-}
-/* End Banner */
-
 /* Product */
 #product .card,
 #top-cards .card,
@@ -244,6 +238,21 @@ h5 {
   #top-cards .card,
   #product .card {
     width: 75%;
+  }
+
+  #banner .card img {
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #top-cards .card,
+  #product .card {
+    width: 100%;
+  }
+
+  #banner .card img {
+    height: 35vh;
   }
 }
 
