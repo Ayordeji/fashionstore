@@ -189,7 +189,7 @@ h5 {
 
 /* Home Banner */
 #home-banner {
-  height: 82vh;
+  height: fit-content;
 }
 
 #home-banner .text-big h1,
@@ -198,6 +198,12 @@ h5 {
   font-size: clamp(2rem, 3.5vw, 5rem);
 }
 /* End Home Banner */
+
+/* Banner */
+#banner .card img {
+  height: 35vh;
+}
+/* End Banner */
 
 /* Product */
 #product .card,
@@ -233,16 +239,11 @@ h5 {
 }
 /* End Back To Top Arrow */
 
-
 /* Media Queries*/
 @media screen and (max-width: 426px) {
   #top-cards .card,
   #product .card {
     width: 75%;
-  }
-
-  #banner .card img {
-    height: 35vh;
   }
 }
 
