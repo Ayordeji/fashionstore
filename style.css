@@ -240,6 +240,10 @@ h5 {
     width: 75%;
   }
 
+  #banner {
+    height: 50vh;
+  }
+
   #banner .card img {
     height: 35vh;
   }
@@ -251,8 +255,12 @@ h5 {
     width: 100%;
   }
 
+  #banner {
+    height: 50vh;
+  }
+
   #banner .card img {
-    height: 225px;
+    height: 35vh;
   }
 }
 
