@@ -48,27 +48,27 @@ body {
 /*------TYPOGRAPHY-------*/
 
 .fs-small {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 h2 {
-  font-size: clamp(1.1rem, 2vw, 3rem) !important;
+  font-size: clamp(0.8rem, 1.6vw, 2.7rem) !important;
   letter-spacing: 1px;
 }
 
 #footer a,
 #footer span,
 p {
-  font-size: clamp(0.7rem, 1.4vw, 1.6rem) !important;
+  font-size: clamp(0.5rem, 1.2vw, 1.4rem) !important;
 }
 
 h5 {
-  font-size: clamp(0.9rem, 1.7vw, 2rem) !important;
+  font-size: clamp(0.5rem, 1.4vw, 1.7rem) !important;
 }
 
 .icon-font {
-  font-size: clamp(1rem, 2.1vw, 3rem) !important;
+  font-size: clamp(.8rem, 1.8vw, 2.7rem) !important;
 }
 
 /*-------BUTTONS--------*/
@@ -80,7 +80,7 @@ h5 {
   transition: 0.7s ease;
   color: #1c1c50;
   border-radius: 5px;
-  font-size: clamp(0.8rem, 1.3vw, 2.4rem) !important;
+  font-size: clamp(0.6rem, 1.1vw, 2.2rem) !important;
 }
 .primary-btn:hover {
   background-color: #1c1c50;
@@ -195,7 +195,7 @@ h5 {
 #home-banner .text-big h1,
 .get-text h1 {
   text-shadow: 1px 1px 1px black;
-  font-size: clamp(2rem, 3.5vw, 5rem);
+  font-size: clamp(1.7rem, 3.2vw, 4.6rem);
 }
 /* End Home Banner */
 
@@ -218,7 +218,7 @@ h5 {
 
 /* Offer */
 #offer .bi {
-  font-size: clamp(2rem, 6vw, 8rem);
+  font-size: clamp(1.8rem, 5.7vw, 7.7rem);
 }
 /* End Offer */
 
